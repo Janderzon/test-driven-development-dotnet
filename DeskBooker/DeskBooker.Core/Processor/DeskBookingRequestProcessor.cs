@@ -10,7 +10,7 @@ namespace DeskBooker.Core.Processor
 
         public DeskBookingResult BookDesk(DeskBookingRequest request)
         {
-            if(request == null)
+            if (request == null)
             {
                 throw new ArgumentNullException(nameof(request));
             }
